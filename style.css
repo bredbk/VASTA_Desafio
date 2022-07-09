@@ -1,11 +1,9 @@
-body{
-    padding: 0;
-}
-
  * {
     margin: 0;
-    font-family: sans-serif;
-    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    
+    
+    
 }
 
 section {
@@ -15,7 +13,7 @@ section {
     height: 526px;
     width: 100%;
     background-image: url("./img/Banner.jpg");
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat;
     background-position:center;
     background-size: cover;
     padding: 0;
@@ -43,10 +41,10 @@ section {
     align-items: center;
     margin-top: 5rem;
 }
-.titulo {
+h1.titulo {
     font-size: 3em;
     padding: 1rem;
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 .subtitulo {
@@ -57,17 +55,22 @@ section {
     color: #676767;
 }
 
-.btn {
+button.btn {
     
     background-color: #00b600; /* Green */
     border: none;
     color: white;
-    padding: 1rem;
+    padding: 1.1rem;
+    padding-left: 1.5rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 15px;
-    margin-left: 1rem;
+    font-size: 14px;
+    margin-left: 1.5rem;
+    margin-top: -0.5rem;
+    cursor: pointer;
+
+    
 }
  .nav-bar {
     display: flex;
@@ -83,4 +86,128 @@ section {
     padding: 0;
     
     z-index: 10;
+}
+
+h1.sobre-titulo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1.2rem;
+    margin-right: 2rem;
+    letter-spacing: .2rem;
+    text-decoration:none;
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+div.sobre-conteudo {
+    display: flex;
+    
+    padding: 1.3rem;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+img.imagem-sobre{
+    margin-top: -.5rem;
+    margin-left: 3.1rem;
+    padding: 0;
+}
+
+p.texto-sobre{
+    
+    margin-left: 1.65rem;
+    margin-top: -1.2rem;
+    font-size: 1rem;
+    line-height: 2.2rem;
+    font-weight: lighter;
+    color: #000;
+}
+
+button.btn-saiba-mais{
+    background-color: #497395; /* Green */
+    border: none;
+    color: white;
+    padding: 0.7rem;
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: -0.2rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+
+div.complemento-sobre{
+    display: flex;
+    
+    padding: 0rem;
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    text-decoration:none;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+p.texto-complemento-sobre{
+    margin-left: 4.3rem;
+    margin-top: -.5rem;
+    font-size: .95rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+    color: #000;
+    
+}
+
+img.imagem-complemento-sobre{
+    margin-right: .3rem;
+    margin-top: -3rem;
+    padding: 2rem;
+}
+
+h1.portifolio-titulo{
+    display: block;
+    text-align: center;
+    font-size: 2.2em;
+    letter-spacing: .08rem;
+    font-weight: 100;
+    margin-top: -1.6rem;
+}
+
+/*div.portifolio{
+    
+}*/
+
+div.portifolio-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-left: 7rem;
+    
+}
+
+.portifolio-imagem{
+    padding: 1rem;
+}
+.btn-portfolio{
+    display: block;
+    background-color: #497395; /* Green */
+    border: none;
+    color: white;
+    padding: 0.7rem;
+    padding-left: 2.1rem;
+    padding-right: 2.1rem;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 14px;
+    margin: 0 auto;
+    
+    cursor: pointer;
 }
