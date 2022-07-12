@@ -14,10 +14,10 @@
         
         <nav class="nav-bar">
             <ul class="nav-list">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Depoimentos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfilio">Portifólio</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#contato">Contato</a></li>
                 <li><a href="#" ><img src="./img/search-icon.png" alt=""></a></li>
             </ul>            
         </nav>
@@ -36,7 +36,7 @@
                 
     </section>
 
-    <div class="sobre">
+    <div class="sobre" id="sobre">
             <h1 class="sobre-titulo">
                 SOBRE
             </h1>
@@ -59,7 +59,7 @@
             </p>
             <img class="imagem-complemento-sobre" src="./img/IMAGEM 2.jpg" alt="">
         </div>
-        <div class="portifolio">
+        <div class="portifolio" id="portfilio">
             <h1 class="portifolio-titulo">
                 PORTFÓLIO
             </h1>
@@ -73,9 +73,123 @@
                 <img class="portifolio-imagem" src="./img/portfolio-imagem-6.jpg" alt="">
             </div>
             <button type="submit" class="btn-portfolio">CARREGAR MAIS PROJETOS</button>
-            
-
-            
         </div>
+
+        <div class="depoimentos">
+            <h1 class="dempoimento-titulo">
+                DEPOIMENTOS
+            </h1>
+
+            <div class="imagens-depoimentos">
+                
+                <div class="cartao">
+                    <img class="seta" src="./img/right.png" alt="">
+                    <div class="cartao-imagem">
+                        <div class="rank">
+
+                            <img class="estrela" src="./img/estrela.png" alt="">
+                            <img class="estrela" src="./img/estrela.png" alt="">
+                            <img class="estrela" src="./img/estrela.png" alt="">
+                            <img class="estrela" src="./img/estrela.png" alt="">
+                            <img class="estrela" src="./img/estrela.png" alt="">
+                        </div>
+                            <img class="img-cartao" src="https://picsum.photos/300/200">
+                        </div>
+                        <div class="texto-depoimento">
+
+                            <strong><p class="titulo-texto-cartao">
+                                Lorem ipsum dolor
+                            </p></strong>
+                            <p class="texto-cartao">sit amet, consectetur adipiscing elit. In quis risus eros. Aenean at enim sollicitudin, maximus nibh quis, pharetra mauris.
+                            </p>
+                        </div>
+                    </div>
+              
+                    <div class="cartao">
+                        <div class="cartao-imagem">
+                            <div class="rank">
+    
+                                <img class="estrela" src="./img/estrela.png" alt="">
+                                <img class="estrela" src="./img/estrela.png" alt="">
+                                <img class="estrela" src="./img/estrela.png" alt="">
+                                <img class="estrela" src="./img/estrela.png" alt="">
+                                <img class="estrela" src="./img/estrela.png" alt="">
+                            </div>
+                                <img class="img-cartao" src="https://picsum.photos/300/200">
+                            </div>
+                            <div class="texto-depoimento">
+
+                                <strong><p class="titulo-texto-cartao">
+                                    Lorem ipsum dolor
+                                </p></strong>
+                                <p class="texto-cartao">sit amet, consectetur adipiscing elit. In quis risus eros. Aenean at enim sollicitudin, maximus nibh quis, pharetra mauris.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cartao">
+                            <div class="cartao-imagem">
+                                <div class="rank">
+        
+                                    <img class="estrela" src="./img/estrela.png" alt="">
+                                    <img class="estrela" src="./img/estrela.png" alt="">
+                                    <img class="estrela" src="./img/estrela.png" alt="">
+                                    <img class="estrela" src="./img/estrela.png" alt="">
+                                    <img class="estrela" src="./img/estrela.png" alt="">
+                                </div>
+                                    <img class="img-cartao" src="https://picsum.photos/300/200">
+                                </div>
+                                <div class="texto-depoimento">
+
+                                    <strong><p class="titulo-texto-cartao">
+                                        Lorem ipsum dolor
+                                    </p></strong>
+                                    <p class="texto-cartao">sit amet, consectetur adipiscing elit. In quis risus eros. Aenean at enim sollicitudin, maximus nibh quis, pharetra mauris.
+                                    </p>
+                                </div>
+                                
+                                <img class="seta" src="./img/left.png" alt="">
+                            </div>
+
+                            
+                            
+                        </div>
+
+                        <div class="contato">
+                            <h1 class="dempoimento-titulo">
+                                CONTATO
+                            </h1>
+                        </div>
+
+                        <div class="contato-form">
+                            
+                            <div class="informacao-pessoal">
+                                
+                              
+                                  <input type="text" class="box" id="nome" name="nome" placeholder="Nome">
+                                  
+                                  <input type="text" class="box" id="sobrenome" name="sobrenome" placeholder="Sobrenome">
+
+                                  <input type="email" class="box" id="email" name="email" placeholder="Email">
+                            </div>
+
+
+                                
+                            <textarea class="box " id="mensagem" name="mensagem" placeholder="Mensagem" style="height:200px"></textarea>
+                            <input type="text" class="box" id="telefone" name="telefone" placeholder="Telefone">      
+                              
+                                  <input class="btn-enviar" type="submit" value="Enviar">
+                              
+                                
+                              
+                        </div>
+
+                            
+              
+            </div>
+        </div>
+        
+
+
 </body>
 </html>

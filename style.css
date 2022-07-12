@@ -171,13 +171,13 @@ img.imagem-complemento-sobre{
     padding: 2rem;
 }
 
-h1.portifolio-titulo{
+h1.portifolio-titulo {
     display: block;
     text-align: center;
     font-size: 2.2em;
     letter-spacing: .08rem;
     font-weight: 100;
-    margin-top: -1.6rem;
+    margin-top: -1rem;
 }
 
 /*div.portifolio{
@@ -193,21 +193,109 @@ div.portifolio-imagens{
 }
 
 .portifolio-imagem{
-    padding: 1rem;
+    padding: 1.5rem;
+    margin-left: .5rem;
 }
 .btn-portfolio{
     display: block;
     background-color: #497395; /* Green */
     border: none;
     color: white;
-    padding: 0.7rem;
-    padding-left: 2.1rem;
-    padding-right: 2.1rem;
+    padding: 1.2rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
     text-align: center;
     text-decoration: none;
-    
+    box-sizing: content-box;
     font-size: 14px;
     margin: 0 auto;
     
     cursor: pointer;
 }
+
+.depoimentos{
+    margin-top: 3.5rem;
+    padding: 1rem;
+}
+
+.dempoimento-titulo {
+    display: block;
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: .08rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+}
+
+.imagens-depoimentos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 1rem;
+    margin-left: 5rem;
+}
+.cartao {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.cartao-imagem {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: .2rem;
+    margin-left: .5rem;
+    max-height:5.5rem;
+}
+.estrela{
+    max-width: 0.875rem;
+    max-height: 0.75rem;
+    margin-right: 0.094rem;
+    width: auto;
+    height: auto;
+}
+.rank{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 1rem;
+    max-height: 1rem;
+    margin-bottom: .5rem;
+}
+
+.img-cartao {
+    max-width: 6rem;
+    max-height: 6rem;
+    width: auto;
+    height: auto;
+}
+
+
+.texto-depoimento{
+    margin-top: 1.5rem;
+}
+.seta {
+    display: inline;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+.informacao-pessoal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-shrink: inherit;
+}
+
+.box{
+    width: 275px;
+    padding: 8px;
+    margin: 3px;
+    border: 1px solid;
+}
+
+
+
